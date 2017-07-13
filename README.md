@@ -1,2 +1,2 @@
-This is the source code of the website for the OHBM hackathon, held at University of British Columbia, June 22-24 2017, Vancouver, CA. The website can be seen here: 
-https://ohbm.github.io/hackathon2017/
+This is the source code of the website for the Deep Brainhack hackathon, held at Notman House, August 25-26 2017, Montreal, CA. The website is cloned from the OHBM Hackathon website. To view the website: 
+https://crocodoyle.github.io/deepbrainhack2017/
