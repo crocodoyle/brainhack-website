@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Deep Brainhack 2017</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css"> -->
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa:700' rel='stylesheet' type='text/css'>
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <a href="/index.html" class="branding">
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top"  onclick = $("#menu-close").click(); >Menu</a>
+            </li>
+            <li>
+                <a href="#top" onclick = $("#menu-close").click(); >Home</a>
+            </li>
+            <li>
+                <a href="#details" onclick = $("#menu-close").click(); >Details</a>
+            </li>
+            <li>
+                <a href="#projects" onclick = $("#menu-close").click(); >Submit projects</a>
+            </li>
+            <li>
+                <a href="#schedule" onclick = $("#menu-close").click(); >Schedule</a>
+            </li>
+            <li>
+                <a href="#location" onclick = $("#menu-close").click(); >Location</a>
+            </li>
+            <li>
+                <a href="#sponsors" onclick = $("#menu-close").click(); >Sponsors</a>
+            </li>
+            <li>
+                <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center text-center">
+            <h1>Deep Brainhack 2017</h1>
+			<div class="row">
+				<div class="col-xl-8 col-xl-offset-2 col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0">
+					<h2>Montreal, QC - CANADA</a>
+				</div>
+		    </div>
+			<div class="row">
+				<div class="col-xl-8 col-xl-offset-2 col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0">
+					<h2>August 24 - 25, 2017</a>
+				</div>
+		    </div>
+
+			<a href="http://www.humanbrainmapping.org/i4a/pages/index.cfm?pageID=3793" target="_blank" class="btn btn-dark btn-lg top5 left5">Register Now</a><a href="https://brainhack-slack-invite.herokuapp.com/" target="_blank" class="btn btn-dark btn-lg top5 left5">Join Brainhack on Slack</a><a href="#projects" target="_blank" class="btn btn-dark btn-lg top5 left5">Submit a Project</a><br><br>
+
+			<br><br><br>
+            <p>Artwork by <a href="https://github.com/gkiar/brain-art/tree/master/vascular_brain">Greg Kiar</a></p>
+
+
+            <!-- <a href="#about" class="btn btn-dark btn-lg">Find Out More</a> -->
+        </div>
+          <div class="text-bottom-right">
+
+            <br>
+            <!-- <a href="" class="btn btn-dark btn-lg">Find Out More</a> -->
+        </div>
+    </header>
+
+    <!-- About
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
+                    <p class="lead">This theme features some wonderful photography courtesy of <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <!-- <hr class="small"> -->
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="service-item">
+                            <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-share-alt fa-stack-1x text-primary"></i>
+                        </span>
+                            <h4>
+                                <strong>Collaborate</strong>
+                            </h4>
+                            <p>Share your neuroimaging knowledge with deep learning experts or vice versa.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="service-item">
+                            <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-graduation-cap fa-stack-1x text-primary"></i>
+                        </span>
+                            <h4>
+                                <strong>Learn</strong>
+                            </h4>
+                            <p>Learn how to apply the latest machine learning models your data, or how to adapt your models to up to 4D neuroimaging data.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="service-item">
+                            <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-gears  fa-stack-1x text-primary"></i>
+                        </span>
+                            <h4>
+                                <strong>Get Involved</strong>
+                            </h4>
+                            <p>Find exciting projects that you would like to contribute to.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="service-item">
+                            <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-wechat fa-stack-1x text-primary"></i>
+                        </span>
+                            <h4>
+                                <strong>Be Social</strong>
+                            </h4>
+                            <p>Meet researchers from a variety of backgrounds.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row (nested)
+            </div>
+            <!-- /.col-lg-10 -->
+        </div>
+        <!-- /.row -->
+</section>
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="details" class="details">
+        <div class="container">
+            <div class="row text-center">
+                 <div class="col-xl-8 col-xl-offset-2 col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0">
+					<p><h3><a href="" target="_blank">Registration coming soon...</a></h3></p>
+		    
+        <p>The Deep Brainhack hackathon brings together researchers in neuroimaging with experts in cutting-edge machine learning for a two-day hacking sprint. The goals of the event are to familiarize the deep learning community with the specific challenges faced by working with medical data, and to introduce neuroscience researchers to the opportunities presented by new deep learning architectures. Brainhack has always been a collaborative event that focuses on open sharing of ideas, code, and even data. The AI community is at the forefront of open science, where most authors of pre-print, open access papers publish their code and their data so that others can easily reproduce their work and adapt it to their own use case.</p>
+
+					<h4>Dates: August 24-25, 2017.  Breakfast starts at 9 am. </h4>
+					<h4>Costs: $20 CAD, includes onsite breakfast, lunch, dinner and refreshments. Places are limited, on a first come, first served basis. 
+					<h4>Location: <a href="#map"> Notman House, 51 Sherbrooke Street West, Montreal, Quebec</a></h4>
+        </div>
+			</div>
+		</div>
+	</section>
+
+  <hr class="small">
+     <section id="projects" class="details">
+         <div class="container">
+             <div class="row text-center">
+                 <div class="col-xl-8 col-xl-offset-2 col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0">
+          <h3 class="text-color-blue">Submit projects</h4>
+            <p>Participants are encouraged to post project ideas in advance of the hackathon. Checkout the list on the <a href="https://github.com/ohbm/hackathon2017/wiki" target="_blank">OHBM hackathon wiki</a>. All it takes to contribute to the list is a github account!</p>
+  					<p>Please join <a href="https://brainhack-slack-invite.herokuapp.com/" target="_blank">the Brainhack Slack project</a> and announce your project on the #brainhack-global-mtl channel. We suggest you create a dedicated channel for your project, as well as a hackpad with a project summary, roadmap and contributors. </p>
+            <p>Following the hackathon, you will be able to submit a project report to the 2017 Brainhack Proceedings.</p>
+          </div>
+      </div>
+         <!-- /.container -->
+     </section>
+
+
+
+<hr class="small">
+
+    <!-- Callout -->
+    <aside class="workspace" id="schedule">
+        <div class="container">
+			<div class="row text-center top30">
+				<div class="col-md-2 col-md-offset-5 col-xs-8 col-xs-offset-2 text-dark">
+				    <h3>Schedule</h3>
+			    </div>
+			</div>
+      <div class="row top30">
+
+  <div class="col-md-6 col-lg-6 col-sm-10 col-xs-10 col-md-offset-0 col-lg-offset-0 col-sm-offset-1 col-xs-offset-1">
+    <div class="row top5 text-center">
+          <div class="col-md-8 col-md-offset-2 col-xs-8 col-xs-offset-2 text-dark">
+            <h4>Thursday, August 24</h4>
+          </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+              9:00 - 9:30
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Breakfast
+            </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+              9:30 - 9:45
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Introduction
+            </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+              9:45 - 10:30
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Deep Learning with <a href="https://github.com/fchollet/keras">Keras</a> Tutorial
+            </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+              9:45 - 10:30
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Neuroscience Tutorial
+            </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+              10:30 - 12:15
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Open Hacking
+            </div>
+    </div>
+      <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+              12:15 - 1:30
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Lunch
+            </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+              1:30 - 16:30
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Open Hacking
+            </div>
+    </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+              16:30 - 17:00
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Unconference
+            </div>
+      </div>
+
+  </div>
+
+  <div class="col-md-6 col-lg-6 col-sm-10 col-xs-10 col-md-offset-0 col-lg-offset-0 col-sm-offset-1 col-xs-offset-1">
+    <div class="row top5 text-center">
+          <div class="col-md-8 col-md-offset-2 col-xs-8 col-xs-offset-2 text-dark">
+            <h4>Friday, August 26</h4>
+          </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+              9:00 - 9:30
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Breakfast
+            </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+              9:30 - 10:00
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Machine Learning tutorial
+            </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+              9:30 - 10:00
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Neuroimaging data tutorial
+            </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+              12:15 - 13:30
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Lunch
+            </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+              13:30 - 14:30
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Unconference
+            </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+              14:30 - 16:00
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Hacking
+            </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+              16:00 - 17:00
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Project Presentations
+            </div>
+      </div>
+    <div class="row top5">
+            <div class="col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0 col-xs-5 text-dark">
+              17:00
+            </div>
+            <div class="col-sm-7 col-sm-offset-0 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 col-xs-7 text-dark">
+              Adjourn
+            </div>
+      </div>
+    <div class="row top5">&nbsp;
+      </div>
+    <div class="row top5">&nbsp;
+      </div>
+    <div class="row top5">&nbsp;
+      </div>
+</div>
+
+		</div>
+    </aside>
+
+
+    <!-- Call to Action -->
+    <aside id="location" class="location">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3 class="text-color-blue">Hosted at:</h3>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+
+    <!-- Map -->
+    <section id="map" class="map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.9079380651156!2d-73.57225934869679!3d45.511931838175414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a4bceb7c89b%3A0x9eac11a36416d0be!2sNotman+House!5e0!3m2!1sen!2sca!4v1499966366383" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" scrollwheel="false" style="border:0" allowfullscreen></iframe>
+	    <br />
+        <small>
+        <a href="https://www.google.ca/maps/place/Walter+Gage+Residence,+5959+Student+Union+Blvd,+Vancouver,+BC+V6T+1K2/@49.268098,-123.2494495,16.56z/data=!4m5!3m4!1s0x548672b7568fb73b:0xbd683d31ceb43879!8m2!3d49.2696086!4d-123.249557"></a>
+	    </small>
+    </section>
+
+    <hr class="small">
+
+
+    <section id="sponsors" class="no-padding">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+				<div class="col-lg-12 text-center">
+				    <br><h3 class="text-color-blue"><strong>The Deep Brainhack is generously sponsored by:</strong></h3><br><br>
+			    </div>
+			</div>
+
+      <div class="row no-gutter">
+  			    <div class="col-lg-10 col-lg-offset-1" >
+                  <div class="col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                          <a href="http://mcin-cnim.ca/research/" target="_blank"><img src="img/MCIN.png" width="100%" class="MCIN" alt="MCIN"></a>
+                  </div>
+                  <div class="col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                      <a href="https://www.mcgill.ca/hbhl/"><h1>Healthy Brains for Healthy Lives initiative</h1></a>
+                  </div>
+  			    </div>
+  			</div>
+
+  				<br><br>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="services bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h3><strong>For more information:</strong></h3>
+                    <i class="fa fa-envelope-o fa-fw"></i>
+                    <a href="mailto:hbm.hackathon@gmail.com">hbm.hackathon@gmail.com</a>
+                    <br>
+                    <br>
+                    <h3><strong>Organizers:</strong>
+                    </h3>
+                    <ul class="list-unstyled">
+                        <li><h4>Andrew Doyle</h4></li>
+                        <li><h4>Greg Kiar</h4></li>
+                        <li><h4>Alexandre Hutton</h4></li>
+                    </ul><br>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+
+	$('.map').click(function () {
+	    $('.map iframe').css("pointer-events", "auto");
+	});
+
+	$( ".map" ).mouseleave(function() {
+	  $('.map iframe').css("pointer-events", "none");
+	});
+
+    </script>
+
+</body>
+
+</html>
