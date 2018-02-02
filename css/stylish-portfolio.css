@@ -233,11 +233,11 @@ hr.small {
     height: 400px;
     color: #000;
     font-family: 'Comfortaa', cursive;
-    background: url(../img/location_logo.png) no-repeat center center scroll;
-    -webkit-background-size: auto;
-    -moz-background-size: auto;
-    background-size: auto;
-    -o-background-size: auto;
+    background: url(../img/thompson-house-building.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .text-dark {
@@ -256,7 +256,7 @@ hr.small {
     height: 600px;
     color: #fff;
     font-family: 'Comfortaa', cursive;
-    background: url(../img/workspace.jpg) no-repeat center center scroll;
+    background: url(../img/thompson-house.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -269,7 +269,7 @@ hr.small {
     height: 400px;
     color: #fff;
     font-family: 'Comfortaa', cursive;
-    background: url(../img/hotel.png) no-repeat center center scroll;
+    background: url(../img/montreal.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
